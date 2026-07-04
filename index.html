@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Fitnes Plus Pasuruan | Premium Fitness Center & Corporate Wellness Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #090d10; }
+        .font-athletic { font-family: 'Barlow Condensed', sans-serif; }
+        
+        .hero-fitness {
+            background: linear-gradient(rgba(153, 27, 27, 0.4), rgba(9, 13, 16, 0.98)), 
+                        url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .red-glow {
+            box-shadow: 0 0 30px rgba(220, 38, 38, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(90deg, #dc2626, #f87171);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .fitness-card {
+            background: rgba(255, 255, 255, 0.01);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .fitness-card:hover {
+            transform: translateY(-6px);
+            border-color: #dc2626;
+            box-shadow: 0 20px 30px -10px rgba(220, 38, 38, 0.15);
+        }
+    </style>
+</head>
+<body class="text-slate-300 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-[#090d10]/90 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center shadow-lg red-glow">
+                    <i class="fas fa-dumbbell text-white text-md"></i>
+                </div>
+                <div class="leading-none">
+                    <span class="text-2xl font-athletic font-black tracking-wider text-white block uppercase">FITNES PLUS</span>
+                    <span class="text-[9px] uppercase tracking-[0.35em] font-bold text-red-500">PASURUAN</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
+                <a href="#home" class="hover:text-red-500 transition">Beranda</a>
+                <a href="#solutions" class="hover:text-red-500 transition">Layanan Utama</a>
+                <a href="#about" class="hover:text-red-500 transition">Standar Fasilitas</a>
+                <a href="#contact" class="hover:text-red-500 transition">Kontak B2B</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-fitness min-h-screen flex items-center pt-20 px-6 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-red-600/5 rounded-full blur-[120px] -mr-48 -mt-24"></div>
+        
+        <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-[10px] font-bold mb-8 uppercase tracking-widest">
+                    <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span> Verified Wellness & Elite Sports Architecture
+                </div>
+                <h1 class="text-5xl md:text-7xl font-athletic font-black text-white mb-8 leading-[1.05] tracking-tight uppercase">
+                    Kekuatan Maksimal, <br><span class="text-gradient">Performa Atletis.</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 leading-relaxed max-w-xl font-light">
+                    CV Fitnes Plus Pasuruan menghadirkan infrastruktur pusat kebugaran mutakhir, manajemen program kesehatan korporat (*corporate wellness*), serta tata kelola rantai pasok alat olahraga premium untuk membangun ekosistem gaya hidup sehat yang andal dan terukur.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#solutions" class="bg-red-600 text-white px-10 py-4 rounded-xl font-bold uppercase text-[11px] tracking-widest hover:bg-red-700 transition-all transform hover:-translate-y-1 shadow-xl shadow-red-600/20 text-center">
+                        Eksplorasi Divisi Layanan
+                    </a>
+                    <a href="#contact" class="bg-[#111823] text-white px-10 py-4 rounded-xl font-bold uppercase text-[11px] tracking-widest border border-slate-800 hover:bg-slate-800 transition-all text-center">
+                        Kemitraan Korporat
+                    </a>
+                </div>
+            </div>
+            <div class="hidden lg:block relative">
+                <div class="p-4 bg-slate-900/40 rounded-3xl border border-slate-800/60 shadow-2xl">
+                    <div class="bg-slate-950 rounded-2xl overflow-hidden p-2 border border-slate-800">
+                        <img src="https://images.unsplash.com/photo-1540206276907-fbe0c660c64c?q=80&w=2070&auto=format&fit=crop" alt="Premium Modern Commercial Gym Center Equipment" class="rounded-xl opacity-35 hover:opacity-60 transition duration-700 grayscale hover:grayscale-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Solutions Grid -->
+    <section id="solutions" class="py-32 px-6 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                <div class="max-w-xl">
+                    <h2 class="text-3xl md:text-5xl font-athletic font-black text-white mb-6 uppercase tracking-tight">Ekosistem Manajemen Kebugaran</h2>
+                    <p class="text-slate-500 leading-relaxed font-light border-l-2 border-red-600 pl-8 italic">"Kami mengintegrasikan akurasi sistem tata kelola kebugaran modern, standardisasi fasilitas kelas atas, dan kepatuhan hukum yang sah demi melahirkan nilai pelayanan eksklusif."</p>
+                </div>
+                <div class="text-slate-800 font-athletic text-6xl font-black tracking-widest hidden lg:block">PERFORMANCE</div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-10 rounded-3xl fitness-card group">
+                    <div class="w-14 h-14 bg-red-950/50 text-red-400 rounded-2xl flex items-center justify-center mb-8 border border-red-800/30 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fas fa-building-user text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-athletic font-bold mb-4 text-white uppercase tracking-wider">Fitness Center Management</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Tata kelola profesional pembukaan gerai pusat kebugaran komersial, audit efisiensi sistem operasional *gym*, dan standarisasi pelayanan keanggotaan terpadu.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-10 rounded-3xl fitness-card group">
+                    <div class="w-14 h-14 bg-red-950/50 text-red-400 rounded-2xl flex items-center justify-center mb-8 border border-red-800/30 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fas fa-heart-pulse text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-athletic font-bold mb-4 text-white uppercase tracking-wider">Corporate Wellness Programs</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Perancangan ekosistem program kesehatan terstruktur untuk instansi swasta/pabrikasi di wilayah Pasuruan guna mendongkrak produktivitas talenta.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-10 rounded-3xl fitness-card group">
+                    <div class="w-14 h-14 bg-red-950/50 text-red-400 rounded-2xl flex items-center justify-center mb-8 border border-red-800/30 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fas fa-truck-moving text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-athletic font-bold mb-4 text-white uppercase tracking-wider">B2B Gym Equipment Supply</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed font-light">Manajemen rantai pasok dan pengadaan perangkat kebugaran komersial bersertifikasi internasional, perlengkapan beban, serta pemeliharaan berkala.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards Section -->
+    <section id="about" class="py-32 px-6 bg-slate-950/40 border-t border-slate-900 relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-24">
+            <div class="md:w-1/2">
+                <h3 class="text-4xl font-athletic font-black text-white mb-8 uppercase tracking-widest">Integritas Pelayanan <br>Dan <span class="text-red-500 italic font-normal">Akuntabilitas Hukum Mutlak.</span></h3>
+                <p class="text-slate-400 mb-10 text-lg font-light leading-relaxed">CV Fitnes Plus Pasuruan beroperasi dengan komitmen jaminan keamanan data, legalitas administratif niaga nasional yang kokoh, dan transparansi korporat. Sebagai badan usaha resmi terverifikasi di Indonesia, kami memastikan setiap jalinan kerja sama kontrak pengadaan logistik atau pengelolaan fasilitas dilindungi di bawah payung hukum yang bersih.</p>
+                
+                <div class="space-y-6 text-xs tracking-wider uppercase font-semibold font-mono">
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-check-circle text-red-500 text-lg"></i>
+                        <span class="text-slate-200">Kepatuhan Terhadap Regulasi Standar Higienitas Dan Keamanan Industri Olahraga</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-shield-halved text-red-500 text-lg"></i>
+                        <span class="text-slate-300">Sistem Proteksi Autentisitas Kontrak Kemitraan Vendor Dan Legalitas Administrasi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop" alt="Elite Athletic Performance Training Strategy" class="rounded-3xl shadow-2xl grayscale border border-slate-800">
+                    <div class="absolute -bottom-8 -right-8 bg-red-600 p-8 hidden md:block rounded-2xl shadow-xl">
+                        <i class="fas fa-shield-heart text-4xl text-slate-950"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="bg-[#090d10] py-32 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-athletic font-black text-white mb-10 tracking-tight uppercase">Mulai Kemitraan Strategis</h2>
+            <p class="text-slate-500 mb-16 text-lg font-light">Kami siap menopang kebutuhan ekspansi fasilitas olahraga Anda. Hubungi desk komunikasi resmi kami untuk pengajuan proposal pengadaan unit perlengkapan, tata kelola manajemen korporat, atau koordinasi administratif legalitas lainnya.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-20">
+                <div class="p-10 bg-slate-900/30 border border-slate-800 rounded-3xl flex flex-col justify-center">
+                    <p class="text-red-400 text-[10px] uppercase tracking-widest mb-4 font-bold">Official Registered Corporate Identity</p>
+                    <p class="text-white font-athletic text-xl font-bold tracking-wider uppercase leading-relaxed">CV FITNES PLUS PASURUAN</p>
+                    <p class="text-xs text-slate-500 mt-1">Pasuruan, Jawa Timur, Indonesia</p>
+                </div>
+                <div class="p-10 border border-slate-800 rounded-3xl bg-slate-900/30 flex flex-col justify-center">
+                    <p class="text-red-400 text-[10px] uppercase tracking-widest mb-4 font-bold">B2B Corporate Desk</p>
+                    <p class="text-white font-bold text-md tracking-widest uppercase">hq.pasuruan@fitnesplus.co.id</p>
+                    <p class="text-xs text-slate-500 mt-2 font-mono">Secure Connection Channel Active</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center pt-20 border-t border-slate-900 gap-10">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
+                        <i class="fas fa-dumbbell text-slate-950 text-xs"></i>
+                    </div>
+                    <span class="text-xs font-bold tracking-[0.5em] uppercase text-white leading-none">CV Fitnes Plus Pasuruan</span>
+                </div>
+                <p class="text-[9px] text-slate-600 uppercase tracking-[0.5em] font-bold">
+                    &copy; 2026 CV Fitnes Plus Pasuruan. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
